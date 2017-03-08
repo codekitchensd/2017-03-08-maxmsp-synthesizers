@@ -1,10 +1,10 @@
 
 
 # CATS on SYNTHS in SPACE!!!
-![Cats on Synths in SPACE!!!](/tumblr_o59xj1tBxz1tvvm7oo1_1280.jpg)
+![Cats on Synths in SPACE!!!](/cat_synth_space.png)
 
 
-Demo of final patch
+(Demo of final patch)
 
 Why are synthesizers interesting?
 + Basic systems combined in interesting ways - modular synthesis
@@ -21,7 +21,7 @@ What we are going to do today?
 + Incrementally build towards final analog synth (as far as we can)
 
 What is MaxMSP?
-(Grab sample Max patch not doing audio)
+(forbidden planet example)
 + Difference between Max, MSP, Jitter, and Beap
 + Highlight other areas of Max and what its traditionally used for
 + We are going to bite of a chunk of Max - analog synthesis
@@ -43,21 +43,13 @@ Patch 03 - Dueling Oscillators
 What is Subtractive Synthesis
 + Ability to shape sound through filters and envelopes
 + Additive synthesis takes opposite approach
++ Take all the harmonics and diminish the ones you don't want
 + This is the whole point of synths
 
 Patch 04 - Add a filter
-+ Cut output and wire in
-
-What is an Envelope
-+ ADSR FTW
-+ Primarily used to vary the VCA
-
-Patch 05 - Add an envelope
-+ Add Envelope
-+ Add VCA
-
++ LPF with cutoff and resonance control
++ Demonstrate cutoff sweep manually
 
 Wrap
 + Final patch is included
-+ Show how to dig into sub modules
-+ Show Beap
++ Show how to dig into sub modules - how the sausage was made
